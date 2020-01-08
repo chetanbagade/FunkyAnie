@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="40sp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:textSize="40sp"
+        android:textColor="#007C7F"/>
+
+    <RadioButton android:id="@+id/radio_pirates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet Animal"
+        android:textSize="30sp"
+        android:textColor="#EA4D63"
+        android:onClick="onRadioButtonClicked"/>
+
+    <RadioButton android:id="@+id/radio_ninjas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wild Animal"
+        android:textSize="30sp"
+        android:textColor="#EA4D63"
+        android:onClick="onRadioButtonClicked"/>
+
+
+</RadioGroup>

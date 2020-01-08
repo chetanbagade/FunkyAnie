@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill_vertical"
+    android:padding="40sp"
+
+    tools:context=".Wild_Animals">
+
+    <GridLayout
+        android:layout_width="108dp"
+        android:layout_height="38dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+
+    </GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="371dp"
+        android:layout_height="595dp"
+        app:srcCompat="@drawable/tiger"/>
+
+    <ToggleButton
+        android:id="@+id/toggleButton3"
+        android:layout_width="155dp"
+        android:layout_height="75dp"
+        android:text="ToggleButton" />
+
+</RelativeLayout>
